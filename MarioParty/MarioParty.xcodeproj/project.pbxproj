@@ -7,43 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6759D90624AF81D400463006 /* Simpsonfont DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90524AF81D400463006 /* Simpsonfont DEMO.otf */; };
+		6759D90924AF9C3400463006 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6759D90824AF9C3400463006 /* Player.swift */; };
+		6759D91524AFA9C900463006 /* Homer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90B24AFA9C800463006 /* Homer.mp3 */; };
+		6759D91624AFA9C900463006 /* Margemoment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90C24AFA9C800463006 /* Margemoment.mp3 */; };
+		6759D91724AFA9C900463006 /* Lisa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90D24AFA9C800463006 /* Lisa.mp3 */; };
+		6759D91824AFA9C900463006 /* Maggie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90E24AFA9C900463006 /* Maggie.mp3 */; };
+		6759D91924AFA9C900463006 /* Bart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D90F24AFA9C900463006 /* Bart.mp3 */; };
+		6759D91A24AFA9C900463006 /* Marge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D91024AFA9C900463006 /* Marge.mp3 */; };
+		6759D91B24AFA9C900463006 /* Bartmoment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D91124AFA9C900463006 /* Bartmoment.mp3 */; };
+		6759D91C24AFA9C900463006 /* Homermoment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D91224AFA9C900463006 /* Homermoment.mp3 */; };
+		6759D91D24AFA9C900463006 /* Lisamoment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D91324AFA9C900463006 /* Lisamoment.mp3 */; };
+		6759D92124AFAD3400463006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6759D92024AFAD3400463006 /* Assets.xcassets */; };
+		6759D94324AFB46D00463006 /* simpsons in Resources */ = {isa = PBXBuildFile; fileRef = 6759D94224AFB46C00463006 /* simpsons */; };
+		6759D94E24AFBE9800463006 /* BG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6759D94D24AFBE9800463006 /* BG.mp3 */; };
+		6759D95224AFBF4E00463006 /* PlayerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6759D95124AFBF4E00463006 /* PlayerDetailsVC.swift */; };
+		67722BE624AFFBC30030C248 /* Maggiemoment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 67722BE524AFFBC30030C248 /* Maggiemoment.mp3 */; };
 		9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4124299E69006D3BD4 /* AppDelegate.swift */; };
 		9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4324299E69006D3BD4 /* SceneDelegate.swift */; };
 		9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449EE4524299E69006D3BD4 /* ViewController.swift */; };
 		9449EE4924299E69006D3BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE4724299E69006D3BD4 /* Main.storyboard */; };
-		9449EE4B24299E6D006D3BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE4A24299E6D006D3BD4 /* Assets.xcassets */; };
 		9449EE4E24299E6D006D3BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE4C24299E6D006D3BD4 /* LaunchScreen.storyboard */; };
 		9449EE5824299FDB006D3BD4 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE5724299FDA006D3BD4 /* SuperMario256.ttf */; };
-		9449EE682429B4FA006D3BD4 /* Luigi.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE672429B4F9006D3BD4 /* Luigi.WAV */; };
-		9449EE6A2429B503006D3BD4 /* Mario.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE692429B503006D3BD4 /* Mario.WAV */; };
-		9449EE6C2429B50B006D3BD4 /* Peach.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE6B2429B50B006D3BD4 /* Peach.WAV */; };
-		9449EE6E2429B51E006D3BD4 /* Waluigi.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE6D2429B51E006D3BD4 /* Waluigi.WAV */; };
-		9449EE722429B54B006D3BD4 /* Yoshi.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE712429B54B006D3BD4 /* Yoshi.WAV */; };
-		9449EE742429B5A4006D3BD4 /* Bowser.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE732429B5A4006D3BD4 /* Bowser.WAV */; };
-		9449EE762429F105006D3BD4 /* BG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE752429F105006D3BD4 /* BG.wav */; };
-		9449EE782429F136006D3BD4 /* Koopa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE772429F136006D3BD4 /* Koopa.wav */; };
-		D22BA088242A4006002EC169 /* MarioCharactersAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6759D90524AF81D400463006 /* Simpsonfont DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Simpsonfont DEMO.otf"; path = "../../../../../../../Downloads/simpsonfont/Simpsonfont DEMO.otf"; sourceTree = "<group>"; };
+		6759D90824AF9C3400463006 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6759D90B24AFA9C800463006 /* Homer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Homer.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Homer.mp3"; sourceTree = "<group>"; };
+		6759D90C24AFA9C800463006 /* Margemoment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Margemoment.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Margemoment.mp3"; sourceTree = "<group>"; };
+		6759D90D24AFA9C800463006 /* Lisa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lisa.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Lisa.mp3"; sourceTree = "<group>"; };
+		6759D90E24AFA9C900463006 /* Maggie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Maggie.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Maggie.mp3"; sourceTree = "<group>"; };
+		6759D90F24AFA9C900463006 /* Bart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bart.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Bart.mp3"; sourceTree = "<group>"; };
+		6759D91024AFA9C900463006 /* Marge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Marge.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Marge.mp3"; sourceTree = "<group>"; };
+		6759D91124AFA9C900463006 /* Bartmoment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bartmoment.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Bartmoment.mp3"; sourceTree = "<group>"; };
+		6759D91224AFA9C900463006 /* Homermoment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Homermoment.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Homermoment.mp3"; sourceTree = "<group>"; };
+		6759D91324AFA9C900463006 /* Lisamoment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lisamoment.mp3; path = "../../../../../../../Music/iTunes/iTunes Media/Music/101soundboards.com/101soundboards.com/Lisamoment.mp3"; sourceTree = "<group>"; };
+		6759D92024AFAD3400463006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6759D94224AFB46C00463006 /* simpsons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = simpsons; path = ../../../../../../../Downloads/simpsons; sourceTree = "<group>"; };
+		6759D94D24AFBE9800463006 /* BG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BG.mp3; path = ../../../../../../../.Trash/BG.mp3; sourceTree = "<group>"; };
+		6759D94F24AFBEAD00463006 /* BG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BG.mp3; path = ../../../../../../../.Trash/BG.mp3; sourceTree = "<group>"; };
+		6759D95124AFBF4E00463006 /* PlayerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsVC.swift; sourceTree = "<group>"; };
+		67722BE524AFFBC30030C248 /* Maggiemoment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Maggiemoment.mp3; sourceTree = "<group>"; };
 		9449EE3E24299E69006D3BD4 /* MarioParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9449EE4124299E69006D3BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9449EE4324299E69006D3BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9449EE4524299E69006D3BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9449EE4824299E69006D3BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9449EE4A24299E6D006D3BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9449EE4D24299E6D006D3BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9449EE4F24299E6D006D3BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9449EE5724299FDA006D3BD4 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
-		9449EE672429B4F9006D3BD4 /* Luigi.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Luigi.WAV; sourceTree = "<group>"; };
-		9449EE692429B503006D3BD4 /* Mario.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mario.WAV; sourceTree = "<group>"; };
-		9449EE6B2429B50B006D3BD4 /* Peach.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Peach.WAV; sourceTree = "<group>"; };
-		9449EE6D2429B51E006D3BD4 /* Waluigi.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Waluigi.WAV; sourceTree = "<group>"; };
-		9449EE712429B54B006D3BD4 /* Yoshi.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Yoshi.WAV; sourceTree = "<group>"; };
-		9449EE732429B5A4006D3BD4 /* Bowser.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bowser.WAV; sourceTree = "<group>"; };
-		9449EE752429F105006D3BD4 /* BG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BG.wav; sourceTree = "<group>"; };
-		9449EE772429F136006D3BD4 /* Koopa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Koopa.wav; sourceTree = "<group>"; };
-		D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MarioCharactersAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +70,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6759D90724AF9BE500463006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6759D90824AF9C3400463006 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6759D95024AFBF0B00463006 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9449EE4524299E69006D3BD4 /* ViewController.swift */,
+				6759D95124AFBF4E00463006 /* PlayerDetailsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		9449EE3524299E68006D3BD4 = {
 			isa = PBXGroup;
 			children = (
+				6759D90724AF9BE500463006 /* Models */,
 				9449EE4024299E69006D3BD4 /* MarioParty */,
 				9449EE3F24299E69006D3BD4 /* Products */,
 			);
@@ -76,12 +107,11 @@
 		9449EE4024299E69006D3BD4 /* MarioParty */ = {
 			isa = PBXGroup;
 			children = (
+				6759D95024AFBF0B00463006 /* ViewControllers */,
 				9449EE4124299E69006D3BD4 /* AppDelegate.swift */,
 				9449EE4324299E69006D3BD4 /* SceneDelegate.swift */,
-				9449EE4524299E69006D3BD4 /* ViewController.swift */,
 				9449EE4724299E69006D3BD4 /* Main.storyboard */,
-				D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */,
-				9449EE4A24299E6D006D3BD4 /* Assets.xcassets */,
+				6759D92024AFAD3400463006 /* Assets.xcassets */,
 				9449EE4C24299E6D006D3BD4 /* LaunchScreen.storyboard */,
 				9449EE4F24299E6D006D3BD4 /* Info.plist */,
 				D22BA084242A3FD9002EC169 /* Fonts */,
@@ -95,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				9449EE5724299FDA006D3BD4 /* SuperMario256.ttf */,
+				6759D94224AFB46C00463006 /* simpsons */,
+				6759D90524AF81D400463006 /* Simpsonfont DEMO.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -102,13 +134,17 @@
 		D22BA085242A3FE4002EC169 /* Character Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				9449EE672429B4F9006D3BD4 /* Luigi.WAV */,
-				9449EE692429B503006D3BD4 /* Mario.WAV */,
-				9449EE6B2429B50B006D3BD4 /* Peach.WAV */,
-				9449EE6D2429B51E006D3BD4 /* Waluigi.WAV */,
-				9449EE712429B54B006D3BD4 /* Yoshi.WAV */,
-				9449EE732429B5A4006D3BD4 /* Bowser.WAV */,
-				9449EE772429F136006D3BD4 /* Koopa.wav */,
+				6759D90F24AFA9C900463006 /* Bart.mp3 */,
+				6759D91124AFA9C900463006 /* Bartmoment.mp3 */,
+				6759D90B24AFA9C800463006 /* Homer.mp3 */,
+				6759D91224AFA9C900463006 /* Homermoment.mp3 */,
+				6759D90D24AFA9C800463006 /* Lisa.mp3 */,
+				6759D91324AFA9C900463006 /* Lisamoment.mp3 */,
+				6759D91024AFA9C900463006 /* Marge.mp3 */,
+				67722BE524AFFBC30030C248 /* Maggiemoment.mp3 */,
+				6759D90C24AFA9C800463006 /* Margemoment.mp3 */,
+				6759D90E24AFA9C900463006 /* Maggie.mp3 */,
+				6759D94D24AFBE9800463006 /* BG.mp3 */,
 			);
 			path = "Character Sounds";
 			sourceTree = "<group>";
@@ -116,7 +152,7 @@
 		D22BA086242A3FED002EC169 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				9449EE752429F105006D3BD4 /* BG.wav */,
+				6759D94F24AFBEAD00463006 /* BG.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -179,19 +215,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9449EE742429B5A4006D3BD4 /* Bowser.WAV in Resources */,
+				6759D91A24AFA9C900463006 /* Marge.mp3 in Resources */,
+				6759D91824AFA9C900463006 /* Maggie.mp3 in Resources */,
 				9449EE4E24299E6D006D3BD4 /* LaunchScreen.storyboard in Resources */,
-				9449EE6A2429B503006D3BD4 /* Mario.WAV in Resources */,
 				9449EE5824299FDB006D3BD4 /* SuperMario256.ttf in Resources */,
-				D22BA088242A4006002EC169 /* MarioCharactersAssets.xcassets in Resources */,
-				9449EE722429B54B006D3BD4 /* Yoshi.WAV in Resources */,
-				9449EE4B24299E6D006D3BD4 /* Assets.xcassets in Resources */,
-				9449EE6C2429B50B006D3BD4 /* Peach.WAV in Resources */,
-				9449EE762429F105006D3BD4 /* BG.wav in Resources */,
-				9449EE6E2429B51E006D3BD4 /* Waluigi.WAV in Resources */,
+				6759D92124AFAD3400463006 /* Assets.xcassets in Resources */,
+				6759D91924AFA9C900463006 /* Bart.mp3 in Resources */,
+				6759D91524AFA9C900463006 /* Homer.mp3 in Resources */,
+				6759D91C24AFA9C900463006 /* Homermoment.mp3 in Resources */,
+				6759D90624AF81D400463006 /* Simpsonfont DEMO.otf in Resources */,
+				6759D94324AFB46D00463006 /* simpsons in Resources */,
+				6759D91D24AFA9C900463006 /* Lisamoment.mp3 in Resources */,
+				67722BE624AFFBC30030C248 /* Maggiemoment.mp3 in Resources */,
+				6759D91624AFA9C900463006 /* Margemoment.mp3 in Resources */,
+				6759D91B24AFA9C900463006 /* Bartmoment.mp3 in Resources */,
 				9449EE4924299E69006D3BD4 /* Main.storyboard in Resources */,
-				9449EE682429B4FA006D3BD4 /* Luigi.WAV in Resources */,
-				9449EE782429F136006D3BD4 /* Koopa.wav in Resources */,
+				6759D94E24AFBE9800463006 /* BG.mp3 in Resources */,
+				6759D91724AFA9C900463006 /* Lisa.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6759D90924AF9C3400463006 /* Player.swift in Sources */,
+				6759D95224AFBF4E00463006 /* PlayerDetailsVC.swift in Sources */,
 				9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */,
 				9449EE4224299E69006D3BD4 /* AppDelegate.swift in Sources */,
 				9449EE4424299E69006D3BD4 /* SceneDelegate.swift in Sources */,
@@ -367,13 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58U9M4P57N;
+				DEVELOPMENT_TEAM = S7JNJRPZ9S;
 				INFOPLIST_FILE = MarioParty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kuwaitCodes.MarioParty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuwaitcodes.MarioParty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
